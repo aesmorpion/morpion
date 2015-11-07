@@ -8,3 +8,10 @@
 	display: table-cell;
 }
 
+.croix{
+	background-color: red;
+}
+
+.rond{
+	background-color: blue;
+}
