@@ -1,1 +1,10 @@
 /*création code css du morpion*/
+.table{
+	border: 1px solid black;
+	width: 30px;
+	height: 30px;
+}
+.ligne{
+	display: table-cell;
+}
+
