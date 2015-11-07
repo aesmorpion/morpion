@@ -1,10 +1,19 @@
 /*mise en place du javascript du morpion*/
 function toggle(elemId){
 	var elem = document.getElementById(elemId);
-	if(elem.className== "croix"){
-		elem.className+=" rond";	
-	}
-	else if(elem.className=="rond"){
-		elem.className+=" croix";
-	}
+	var result;
+	var i=0;
+	if(i==1){
+		if(elem.className== "table"){
+			elem.className+=" rond";
+			i++;	
+			alert(i);
+		}
+	}else{
+		if(elem.className=="table"){
+			elem.className+=" croix";
+			i++;
+			alert(i);
+		}
+	}	
 }
